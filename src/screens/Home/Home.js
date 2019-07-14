@@ -5,7 +5,7 @@ import * as ImagePicker from 'expo-image-picker';
 
 import styles from './styles';
 import { CustomButton } from 'components/CustomButton/CustomButton';
-import scanImageData from 'utils/scanImage';
+import scanImageData from 'utilities/scanImage';
 
 export default class Home extends Component {
     constructor(props) {
