@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#3498db',
         padding: 20,
         borderRadius: 7,
+        marginBottom: 20
     },
     btnText: {
         color: '#FFFFFF',

@@ -7,6 +7,8 @@ module.exports = function(api) {
         "root": ["./src"],
         "alias": {
           "@screens": "./src/screens",
+          "@components": "./src/components",
+          "@utils": "./src/utils",
         }
       }]
     ]
