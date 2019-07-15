@@ -31,7 +31,7 @@ export default class Home extends Component {
     } 
 
     scanImage = async () => {
-        imageResult = await ImagePicker.launchImageLibraryAsync({
+        const imageResult = await ImagePicker.launchImageLibraryAsync({
             mediaTypes: ImagePicker.MediaTypeOptions.Images,
             base64: true,
         });
